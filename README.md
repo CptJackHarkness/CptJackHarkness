@@ -1,5 +1,8 @@
-## Hi there 👋
+![8hkekbti9a221](https://github.com/user-attachments/assets/dd06a682-1fde-4859-a513-761819640cf6)
 
+I'm a cybersecurity student looking to learn and have some fun breaking stuff! 😄
+
+Currently pursuing network and security certifications while enhancing my GitHub skills.
 <!--
 **CptJackHarkness/CptJackHarkness** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
