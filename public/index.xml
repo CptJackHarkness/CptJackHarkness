@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ricardo Ribeiro | SOC Analyst</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on Ricardo Ribeiro | SOC Analyst</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-pt</language>
+        <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>Bem-vindo ao meu Portfólio</title>
+            <link>http://localhost:1313/post/primeiro-writeup/</link>
+            <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/post/primeiro-writeup/</guid>
+            <description>&lt;p&gt;Olá! Eu sou o &lt;strong&gt;Ricardo Ribeiro&lt;/strong&gt;, estudante de Cibersegurança.&lt;/p&gt;&#xA;&lt;p&gt;Este espaço vai servir para documentar os meus laboratórios, notas de estudo e relatórios técnicos (&lt;em&gt;write-ups&lt;/em&gt;).&lt;/p&gt;&#xA;&lt;h3 id=&#34;áreas-de-foco&#34;&gt;Áreas de Foco:&#xD;&#xA;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Defesa de Redes:&lt;/strong&gt; Configuração e monitorização de Firewalls.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Operações de SOC:&lt;/strong&gt; Análise de logs, triagem de alertas e resposta a incidentes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Segurança Ofensiva:&lt;/strong&gt; Desafios práticos no TryHackMe e HackTheBox.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Obrigado pela visita!&lt;/p&gt;&#xA;</description>
+        </item></channel>
+</rss>

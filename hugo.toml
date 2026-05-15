@@ -1,0 +1,24 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'pt-pt'
+title = 'Ricardo Ribeiro | SOC Analyst'
+theme = 'hugo-theme-stack'
+
+[params]
+    description = 'Portfólio de Cibersegurança e Análise de SOC'
+
+# Configuração da Barra Lateral corrigida para a tua versão do tema
+[params.sidebar]
+    subtitle = 'Cybersecurity Student | Future SOC Analyst'
+    emoji = '🎯'
+    avatar = 'image/foto_perfil.jpg' # Agora como texto simples, exatamente como o tema quer
+
+# Links das tuas redes sociais
+[[params.social]]
+    name = "linkedin"
+    icon = "brand-linkedin"
+    url = "https://www.linkedin.com/in/ricardo-ribeiro-2277ab23b/"
+
+[[params.social]]
+    name = "github"
+    icon = "brand-github"
+    url = "https://github.com/CptJackHarkness"
