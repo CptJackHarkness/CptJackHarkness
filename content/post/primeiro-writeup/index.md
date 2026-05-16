@@ -1,18 +1,18 @@
 ---
-title: "Bem-vindo ao meu Portfólio"
-description: "Início da minha jornada em Cibersegurança e Análise de SOC."
+title: "Welcome to my Portfolio"
+description: "The beginning of my journey into Cybersecurity and SOC Analysis."
 date: 2026-05-15
 draft: false
 avatar: "image/foto_perfil.jpg"
 ---
 
-Olá! Eu sou o **Ricardo Ribeiro**, estudante de Cibersegurança.
+Hi! I'm **Ricardo Ribeiro**, a Cybersecurity student.
 
-Este espaço vai servir para documentar os meus laboratórios, notas de estudo e relatórios técnicos (*write-ups*).
+This space will be used to document my home labs, study notes, and technical reports (*write-ups*).
 
-### Áreas de Foco:
-* **Defesa de Redes:** Configuração e monitorização de Firewalls.
-* **Operações de SOC:** Análise de logs, triagem de alertas e resposta a incidentes.
-* **Segurança Ofensiva:** Desafios práticos no TryHackMe e HackTheBox.
+### Focus Areas:
+* **Network Defense:** Configuring and monitoring Firewalls.
+* **SOC Operations:** Log analysis, alert triaging, and incident response.
+* **Offensive Security:** Hands-on challenges on TryHackMe.
 
-Obrigado pela visita!
+Thanks for visiting!

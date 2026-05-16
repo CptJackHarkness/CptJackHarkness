@@ -1,6 +1,6 @@
 ---
-title: "Writeup Rápido: Análise de Reconhecimento de Rede com Nmap"
-description: "Como identificar portas abertas e serviços vulneráveis num host."
+title: "Quick Writeup: Network Reconnaissance Analysis with Nmap"
+description: "How to identify open ports and vulnerable services on a target host."
 date: 2026-05-16
 categories:
     - Pentesting
@@ -12,13 +12,13 @@ tags:
 draft: false
 ---
 
-## Objetivo do Laboratório
-O objetivo deste exercício foi realizar um scan de reconhecimento (*recon*) num host de testes para mapear a superfície de ataque e identificar potenciais vetores de entrada.
+## Lab Objective
+The objective of this exercise was to perform a reconnaissance scan (*recon*) on a test host to map the attack surface and identify potential entry vectors.
 
 ---
 
-## 1. Execução do Comando
-Utilizei o Kali Linux para correr um scan agressivo, extraindo as versões dos serviços e o sistema operativo do alvo:
+## 1. Command Execution
+I used Kali Linux to run an aggressive scan, extracting service versions and the target's operating system:
 
 ```bash
 nmap -sV -sC -O -F 192.168.1.50
@@ -26,18 +26,18 @@ nmap -sV -sC -O -F 192.168.1.50
 
 ---
 
-## 2. Resultados
+## 2. Results
 
-| Porta | Estado | Serviço | Versão Detetada | Impacto de Segurança |
-|**22/TCP** | Aberto | SSH | OpenSSH 8.2p1 | Seguro (se usar chaves em vez de passwords) |
-|**80/TCP** | Aberto | HTTP | Apache httpd 2.4.41 | Potencial vetor se houver exploits públicos |
-|**445/TCP** | Aberto | SMB | Samba 4.X | Crítico: Alvo comum para movimentação lateral |
+| Port | State | Service | Version Detected | Security Impact |
+|**22/TCP** | Aberto | SSH | OpenSSH 8.2p1 | Secure (if using keys instead of passwords) |
+|**80/TCP** | Aberto | HTTP | Apache httpd 2.4.41 | Potential vector if public exploits exist |
+|**445/TCP** | Aberto | SMB | Samba 4.X | Critical: Common target for lateral movement |
 
 ---
 
-## 3. Conclusão
+## 3. Conclusion
 
-A porta 445 (SMB) exposta representa o maior risco neste cenário. Como recomendação de mitigação imediata:
+The exposed 445 (SMB) port represents the highest risk in this scenario. Immediate mitigation recommendations:
 
-1. Isolar a porta 445 através de regras de Firewall;
-2. Garantir que o protocolo SMBv1 está totalmente desativado, forçando o uso de SMBv2/v3 cifrado.
+1. Isolate port 445 using perimeter Firewall rules.
+2. Ensure SMBv1 protocol is completely disabled, forcing the use of encrypted SMBv2/v3.
