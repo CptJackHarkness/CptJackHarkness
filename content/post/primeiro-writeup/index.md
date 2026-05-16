@@ -1,5 +1,6 @@
 ---
 title: "Welcome to my Portfolio"
+image: cover.jpg
 description: "The beginning of my journey into Cybersecurity and SOC Analysis."
 date: 2026-05-15
 draft: false
