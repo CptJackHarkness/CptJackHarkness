@@ -30,9 +30,10 @@ nmap -sV -sC -O -F 192.168.1.50
 ## 2. Results
 
 | Port | State | Service | Version Detected | Security Impact |
-|**22/TCP** | Aberto | SSH | OpenSSH 8.2p1 | Secure (if using keys instead of passwords) |
-|**80/TCP** | Aberto | HTTP | Apache httpd 2.4.41 | Potential vector if public exploits exist |
-|**445/TCP** | Aberto | SMB | Samba 4.X | Critical: Common target for lateral movement |
+| :--- | :--- | :--- | :--- | :--- |
+| **22/TCP** | Open | SSH | OpenSSH 8.2p1 | Secure (if using keys instead of passwords) |
+| **80/TCP** | Open | HTTP | Apache httpd 2.4.41 | Potential vector if public exploits exist |
+| **445/TCP**| Open | SMB | Samba 4.X | **Critical:** Common target for lateral movement |
 
 ---
 
